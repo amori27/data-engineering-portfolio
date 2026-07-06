@@ -1,10 +1,42 @@
+# Python
 __pycache__/
-.env
-venv/
-.venv/
+*.py[cod]
 *.egg-info/
-data/*.db
-*.log
 dist/
 build/
+*.egg
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.key
+
+# Data
+data/*.db
+data/*.csv
+!data/sample/
+
+# Logs
+*.log
+logs/
+
+# Spark
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Docker
+.docker/
