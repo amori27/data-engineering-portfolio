@@ -1,3 +1,7 @@
 # Dev
 pytest==8.3
 Faker==28.0
+psycopg2-binary>=2.9
+fastapi>=0.115
+uvicorn>=0.30
+httpx>=0.27
